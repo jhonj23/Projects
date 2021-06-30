@@ -1,0 +1,56 @@
+body {
+	background-image: radial-gradient(circle at 12.5% 12.5%, #00c8ff 0, #1b90d8 50%, #1c5c8c 100%);
+
+}
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	border: 2px solid black;
+	padding: 25px;
+	background-color: #1F618D;
+	box-shadow: 10px 5px 5px black;
+}
+
+.label {
+	text-align: justify;
+	width: 525px;
+	padding: 10px;
+}
+input {
+  height: 50px;
+  width: 100%;
+  margin: 0px 0;
+  padding: 0 10px;
+  border-width: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.btn {
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+
+
+form label{
+	width:72px;
+	font-weight: bolder;
+	display:inline-block;
+}
+
+
