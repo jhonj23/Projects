@@ -48,9 +48,17 @@ $('#btnenviar').on('click', ()=>{
     edad
   }
 
-  console.log(nombre)
+  console.log(user)
+  
+  /* Condicion para rellenar todos los campos*/
 
-  SaveUser(user);
+  if (nombre,apellido,cedula,edad == ""){
+    alert('Rellena todos los campos');
+  } 
+  else {
+    SaveUser(user);
+  }
+
 })
 
     
